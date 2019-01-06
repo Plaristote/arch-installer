@@ -1,0 +1,5 @@
+#!/bin/sh
+
+pacman -Sy
+pacman -S ruby
+ruby bin/run.rb archlinux
