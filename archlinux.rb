@@ -39,9 +39,9 @@ Archlinux.setup do
   packages 'xf86-video-ati'     if Archlinux::Machine.has_ati_video_card?
   #packages 'xf86-input-synaptics'
 
-  ## Yaourt
-  packages 'yajl'
-  aur 'package-query', 'yaourt'
+  ## Pacaur
+  packages 'expac', 'sudo', 'jq', 'perl'
+  aur 'auracle-git', 'pacaur'
 
   ## Applications
   packages 'konsole', 'kate', 'dolphin', 'kwrite', 'kompare'
