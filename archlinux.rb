@@ -29,7 +29,7 @@ Archlinux.setup do
 
   ## GUI
   packages 'xorg-server', 'xorg-server-common'
-  packages 'xorg-xbacklight', 'xorg-xgamma', 'xorg-xhost', 'xorg-xinput', 'xorg-xmodmap', 'xorg-xrandr', 'xorg-xrefresh', 'xorg-xset', 'xorg-xsetroot'
+  packages 'xorg-xbacklight', 'xorg-xgamma', 'xorg-xhost', 'xorg-xinput', 'xorg-xmodmap', 'xorg-xrandr', 'xorg-xrefresh', 'xorg-xset', 'xorg-xsetroot', 'xorg-xkill'
   packages 'sddm'
   packages 'plasma-meta', 'oxygen-icons'
   packages 'kde-applications-meta'
